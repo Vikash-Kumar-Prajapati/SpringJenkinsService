@@ -31,20 +31,4 @@ public class SpringJenkinsServiceApplication {
 		SpringApplication.run(SpringJenkinsServiceApplication.class, args);
 	}
 
-	// @GetMapping("/")
-	// public Map<String, Object> getValues() {
-	// Map<String, Object> data = new HashMap<>();
-	// data.put("message", "This Jenkins Service API is working fine......");
-	// data.put("languages", Arrays.asList("JAVA", "C#", "C", "JavaScript",
-	// "Python", "Dart"));
-	// data.put("Frameworks", Arrays.asList("Flutter", "React Native", "Angular"));
-	// data.put("code", Arrays.asList("😊", "😁", "👍", "✌️"));
-	// return data;
-	// }
-	@GetMapping("/")
-	public String languages() {
-
-		return "JAVA, C#, JavaScript, C, Python, Dart, Swift, Ruby, Cobol, C++, Pascal";
-	}
-
 }
