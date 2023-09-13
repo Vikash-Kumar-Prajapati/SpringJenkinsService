@@ -11,6 +11,7 @@
 	<groupId>com.nagarro.vikashprajapati</groupId>
 	<artifactId>SpringJenkinsService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>SpringJenkinsService</name>
 	<description>This is spring boot application for Jenkins.</description>
 	<properties>
