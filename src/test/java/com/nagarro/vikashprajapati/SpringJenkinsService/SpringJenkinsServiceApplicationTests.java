@@ -11,9 +11,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class SpringJenkinsServiceApplicationTests {
 
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsServiceApplicationTests.class);
+
 	@Test
 	void contextLoads() {
 		logger.info("Test case Executing..............");
+		logger.info("Test case Executing again and again..............");
 		assertEquals(true, true);
 	}
 
