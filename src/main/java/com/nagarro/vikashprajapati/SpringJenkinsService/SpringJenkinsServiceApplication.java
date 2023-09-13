@@ -41,7 +41,7 @@ public class SpringJenkinsServiceApplication {
 	// data.put("code", Arrays.asList("😊", "😁", "👍", "✌️"));
 	// return data;
 	// }
-
+	@GetMapping("/")
 	public String languages() {
 
 		return "JAVA, C#, JavaScript, C, Python, Dart, Swift, Ruby, Cobol, C++, Pascal";
